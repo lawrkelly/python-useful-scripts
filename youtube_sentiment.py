@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup as bs4
 """
 Example usage:
 
-$ python 31_youtube_sentiment.py https://www.youtube.com/watch?v=_vrAjAHhUsA
+$ python youtube_sentiment.py https://www.youtube.com/watch?v=_vrAjAHhUsA
+
 """
 
 
