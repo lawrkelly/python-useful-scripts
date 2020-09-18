@@ -59,7 +59,7 @@ def decom_load():
         sp_list = site.List("project apps")
         sp_data = sp_list.GetListItems('All Items')
 
-        with open('Output2.json', 'rb') as file1:
+        with open('output2.json', 'rb') as file1:
             decom=json.load(file1)
             all_decom=decom["decommRequests"]
             
@@ -67,7 +67,7 @@ def decom_load():
             pc_error_data = []
             #cr="\n"
 
-            for decom_row in all_decom:     # Getting each row data from the API file DecomOutput2.json
+            for decom_row in all_decom:     # Getting each row data from the API file output2.json
 
                 decom_col=decom_row["Global ID"]   # get the ID only
                 fields = ['ID','Global ID']
